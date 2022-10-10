@@ -1,0 +1,106 @@
+{
+  "Sidebar": {
+    "Profile": {
+      "Name": "Randall Spencer",
+      "Image": "https://i.imgur.com/kcZSVuH.jpg[/img]",
+      "Role": "Software Engineer"
+    },
+    "ContactInfo": [
+      {
+        "Icon": "phone",
+        "Text": "+1 773 451 5892",
+        "Type": "phone"
+      },
+      {
+        "Icon": "envelope-o",
+        "Text": "randall.spencer@gmail.com",
+        "Type": "email"
+      },
+      {
+        "Icon": "globe",
+        "Text": "holdonowgo.github.io/resume",
+        "Type": "url"
+      },
+      {
+        "Icon": "linkedin",
+        "Text": "linkedin.com/in/randallspencer",
+        "Type": "url"
+      },
+      {
+        "Icon": "map-marker",
+        "Text": "Oakland, California",
+        "Type": "location"
+      }
+    ],
+    "Education": [
+      {
+        "Years": "January 2017 - June 2017",
+        "Degree": "Software Engineering Immersive",
+        "University": "Galvanize"
+      },
+      {
+        "Years": "2001 - 2005",
+        "Degree": "Bachelor Degree",
+        "University": "DePaul University, School of Computing"
+      }
+    ],
+    "Organizations": [
+      {
+        "Years": "2016 - Present",
+        "Name": "Dev Color",
+        "About": "A community of developers of color.",
+        "URL": "devcolor.org",
+        "Role": "Member"
+      },
+      {
+        "Years": "August 2022 - Present",
+        "Name": "Year Up",
+        "About": "A non-profit organization that provides urban young adults with the skills, experience, and support that will empower them to reach their potential through professional careers and higher education.",
+        "URL": "yearup.org",
+        "Role": "Volunteer"
+      }
+    ],
+    "Languages": [
+      {
+        "Name": "Node",
+        "Level": 85
+      },
+      {
+        "Name": "Javascript",
+        "Level": 85
+      },
+      {
+        "Name": "TypeScript",
+        "Level": 50
+      },
+      {
+        "Name": "HTML",
+        "Level": 85
+      },
+      {
+        "Name": "CSS",
+        "Level": 75
+      },
+      {
+        "Name": "Python",
+        "Level": 25
+      },
+      {
+        "Name": "Java",
+        "Level": 60
+      },
+      {
+        "Name": "C#",
+        "Level": 25
+      },
+      {
+        "Name": "React",
+        "Level": 75
+      },
+      {
+        "Name": "Vue",
+        "Level": 75
+      }
+    ]
+  }
+}
