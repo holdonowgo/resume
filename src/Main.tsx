@@ -1,6 +1,5 @@
 import Profile from "./About/Profile";
 import Experience from "./About/Experience";
-import Skills from "./About/Skills";
 
 export type AProfile = {
   title: string;
@@ -103,36 +102,9 @@ const Main = () => {
       `
     }
   ];
-  const skills: ASkill[] = [
-    {
-      skill: "HTML",
-      level: 30
-    },
-    {
-      skill: "CSS",
-      level: 45
-    },
-    {
-      skill: "JavaScript",
-      level: 70
-    },
-    {
-      skill: "Photoshop",
-      level: 40
-    },
-    {
-      skill: "Illustrator",
-      level: 60
-    },
-    {
-      skill: "Adobe XD",
-      level: 70
-    }
-  ];
 
   return (
     <div className="right_Side">
-      {/* <pre>{JSON.stringify({ Profile, Experience, Skills }, null, 2)}</pre> */}
       <Profile profile={profile} />
       <Experience experience={experience} />
       {/* <Skills skills={skills} /> */}
