@@ -34,7 +34,7 @@ const Main = () => {
   };
   const experience: AExperience[] = [
     {
-      year: "November 2020 - August 2022",
+      year: "2020 - August 2022",
       company: "Seasoned 2.0",
       role: "Software Engineer, Full Stack",
       summary: `Lead an OpenShift Engineering team's people and strategy, growing a small ad-hoc group into a 12 person cross-functional team. Our component bridges the Red Hat Enterprise Linux Container Operator System (RHCOS) with Red Hat's Kubernetes application platform (OpenShift).
@@ -135,7 +135,7 @@ const Main = () => {
       {/* <pre>{JSON.stringify({ Profile, Experience, Skills }, null, 2)}</pre> */}
       <Profile profile={profile} />
       <Experience experience={experience} />
-      <Skills skills={skills} />
+      {/* <Skills skills={skills} /> */}
       <div className="about interest">
         <h2 className="title2">Interests</h2>
         <ul>
