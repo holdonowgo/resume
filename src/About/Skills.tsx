@@ -1,4 +1,3 @@
-import React from "react";
 import { ASkill } from "../Main";
 
 const Skills = ({ skills }: { skills: ASkill[] }): any => {
