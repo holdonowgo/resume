@@ -1,5 +1,3 @@
-import React from "react";
-
 const SProfileText = ({ Profile }) => {
   return (
     <div className="profileText">

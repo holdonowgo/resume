@@ -12,9 +12,6 @@ const Organizations = ({ organization }: { organization: Array<SOrganization> })
               <i className={`fa fa-link`} aria-hidden="true"></i>
             </span>
             <span className="text">{org.Name}</span>
-            {/* <span>{' '}</span> */}
-            {/* <span className="years">{org.Years}</span> */}
-            {/* <h4>{org.Name}</h4> */}
             <h4>{org.About}</h4>
           </li>
         ))}
