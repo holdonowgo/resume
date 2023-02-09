@@ -1,6 +1,10 @@
-import React from "react";
+type Language =
+  {
+    Name: string
+    Level: number
+  }
 
-const SLanguage = ({ Languages }) => {
+const SLanguage = ({ Languages }: { Languages: Array<Language> }) => {
   return (
     <div className="contactInfo language">
       <h3 className="title">Languages</h3>
@@ -10,7 +14,6 @@ const SLanguage = ({ Languages }) => {
             <span className="text">{lang.Name}</span>
             <span className="percent">
               <div
-                // className={`${lang.Name.toLocaleLowerCase()}w${lang.Level}`}
                 style={{ width: `${lang.Level}%` }}
               ></div>
             </span>
