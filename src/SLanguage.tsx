@@ -1,11 +1,17 @@
 import React from "react";
 
-const SLanguage = ({ Languages }) => {
+type Language =
+  {
+    Name: string
+    Level: number
+  }
+
+const SLanguage = ({ languages }: { languages: Array<Language> }) => {
   return (
     <div className="contactInfo language">
       <h3 className="title">Languages</h3>
       <ul>
-        {Languages.map((lang) => (
+        {languages.map((lang) => (
           <li key={lang.Name}>
             <span className="text">{lang.Name}</span>
             <span className="percent">
